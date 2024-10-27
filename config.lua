@@ -1,17 +1,17 @@
 Config = {}
 
 Config.EnableNightMining 	= true
-Config.MinMiningTime 		= 3000
-Config.MaxMiningTime 		= 5000
+Config.MinMiningTime 		= 2000
+Config.MaxMiningTime 		= 4000
 Config.PickaxeItemName 		= 'pickaxe'
 Config.BreakPickaxe 		= false
 Config.BreakChance 		= 10
 Config.Anticheat 		= true
-Config.AnticheatChance 		= 25
+Config.AnticheatChance 		= 20
 
 Config.Selling 	= {
     enabled 	= true,
-    model 	= 'a_m_y_genstreet_01',
+    model 	= 'ig_floyd',
     coords 	= vec3(2832.9509, 2795.2390, 56.4827),
     heading 	= 99.1351,
     account 	= 'money'
@@ -37,63 +37,63 @@ Config.RareRewards = {
 
 Config.SmeltingOptions 	= {
     scrap_metal 	= {
-        label 		= 'Scrap Metal',
+        label 		= 'Metallschrott',
         smeltable 	= false,
         sellable 	= true,
         duration 	= nil,
         price 		= 50
     },
     stone = {
-        label 		= 'Stone',
+        label 		= 'Stein',
         smeltable 	= false,
         sellable 	= true,
         duration 	= nil,
         price 		= 75
     },
     raw_copper = {
-        label 		= 'Raw Copper',
+        label 		= 'Rohkupfer',
         smeltable 	= true,
         sellable 	= true,
         duration 	= 1000,
         price 		= 100
     },
     raw_iron = {
-        label 		= 'Raw Iron',
+        label 		= 'Roheisen',
         smeltable 	= true,
         sellable 	= true,
         duration 	= 2000,
         price 		= 125
     },
     raw_steel = {
-        label 		= 'Raw Steel',
+        label 		= 'Rohstahl',
         smeltable 	= true,
         sellable 	= true,
         duration 	= 2000,
         price 		= 150
     },
     raw_silver = {
-        label 		= 'Raw Silver',
+        label 		= 'Rohsilber',
         smeltable 	= true,
         sellable 	= true,
         duration 	= 3000,
         price 		= 175
     },
     raw_gold = {
-        label 		= 'Raw Gold',
+        label 		= 'Rohgold',
         smeltable 	= true,
         sellable 	= true,
         duration 	= 3000,
         price 		= 200
     },
     raw_diamond = {
-        label 		= 'Raw Diamond',
+        label 		= 'Rohdiamant',
         smeltable 	= true,
         sellable 	= true,
         duration 	= 4000,
         price 		= 225
     },
     raw_emerald = {
-        label 		= 'Raw Emerald',
+        label 		= 'Rohsmaragd',
         smeltable 	= true,
         sellable 	= true,
         duration 	= 5000,
@@ -113,7 +113,11 @@ Config.MiningLocations = {
     vec3(2981.2747, 2749.6770, 43.1636),
 
 -- Eigene Koordinaten
-    vec3(2676.0762, 2998.1443, 36.1722)
+    vec3(2676.0762, 2998.1443, 36.1722),
+    vec3(2674.5579, 2991.9797, 36.4836),
+    vec3(2785.9551, 2883.1321, 36.8614),
+    vec3(2914.0737, 2802.1155, 44.3509),
+    vec3(2923.3982, 2770.0127, 44.8834)
 }
 
 Config.BlipSettings 	= {
@@ -149,7 +153,7 @@ Notify = {
     cancelledSell 	= 'Du hast das Schmelz prozess eingestellt',
     missingItem 	= 'Du hast keider nicht genug Rohstoffe',
     missingItemSell 	= 'Du hast keider nicht genug Rohstoffe',
-    soldItems 		= 'Du hast â‚¬ erhalten',
+    soldItems 		= 'Du hast â‚¬ erhalten ',
     pickaxeBroke 	= 'Deine Spitzhacke ist zerbrochen'
 }
 
