@@ -1,7 +1,7 @@
 ### Powered by Lationscripts.com
 
-|- ✅ Available in [de]|
-|---|
+|- ✅ Add Items SQL|- ✅ Available in [de]|
+|---|---|
 
 ```yarn
 A fun mining script for FiveM including mining, smelting & selling materials. 
