@@ -58,6 +58,7 @@ Customize how long each material takes to smelt & much more!
 - Add items found in "install" folder to your inventory resource
 - Add lation_mining to your 'resources' directory
 - Add 'ensure lation_mining' in your 'server.cgf'
+![items](https://github.com/user-attachments/assets/2aad6780-9689-4971-af08-24aa5aeb8bdf)
 
 ![line](https://github.com/bylickilabs/bylickilabs/assets/109308073/bfd77a60-d426-4470-b417-fdbab0166188) 
 
