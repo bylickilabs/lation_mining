@@ -1,5 +1,8 @@
 ### Powered by Lationscripts.com
 
+|[Check the new Relese](https://github.com/bylickilabs/lation_mining)|
+|---|
+
 |- ✅ Add Items SQL|- ✅ Available in [de]|
 |---|---|
 
