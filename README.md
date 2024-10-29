@@ -1,6 +1,6 @@
 ### Powered by Lationscripts.com
 
-|[Check the NEW v1.2 Relese](https://github.com/bylickilabs/lation_mining)|
+|[Check the NEW v1.2 Relese](https://github.com/bylickilabs/lation_mining/releases/tag/mining)|
 |---|
 
 |- ✅ Add Items SQL|- ✅ Available in [de]|
