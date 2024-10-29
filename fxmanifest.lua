@@ -20,3 +20,5 @@ shared_scripts {
     'config.lua',
     '@ox_lib/init.lua'
 }
+
+dependency '/assetpacks'
